@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ClickON | Gestao de Trafego Pago que Gera Resultados Reais</title>
+  <meta name="description" content="ClickON especialista em gestao de trafego pago. Meta Ads e Google Ads em clientes reais." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo"><img src="logo.png" alt="ClickON" class="logo-img" /></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#solucoes" class="nav-link">Solucoes</a></li>
+        <li><a href="#sobre" class="nav-link">Quem Somos</a></li>
+        <li><a href="#resultados" class="nav-link">Resultados</a></li>
+        <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li><a href="https://wa.me/6781260014" target="_blank" class="btn-nav-cta" id="navCtaBtn"><i class="fab fa-whatsapp"></i> Falar Agora</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <section class="hero" id="home">
+    <canvas class="hero-canvas" id="heroCanvas"></canvas>
+    <div class="hero-grid-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge"><span class="badge-dot"></span><span>Especialistas em Trafego Pago</span></div>
+      <h1 class="hero-title">Transforme Cliques em<br /><span class="gradient-text">Clientes Reais</span></h1>
+      <p class="hero-subtitle">Gerenciamos suas campanhas no <strong>Meta Ads</strong> e <strong>Google Ads</strong> com estrategia, dados e criatividade para o seu negocio crescer de verdade.</p>
+      <div class="hero-stats">
+        <div class="stat-card"><div class="stat-number" data-target="350" data-suffix="+">0</div><div class="stat-label">Clientes Atendidos</div></div>
+        <div class="stat-divider"></div>
+        <div class="stat-card"><div class="stat-number" data-target="8" data-suffix="x">0</div><div class="stat-label">ROI Medio</div></div>
+        <div class="stat-divider"></div>
+        <div class="stat-card"><div class="stat-number" data-target="97" data-suffix="%">0</div><div class="stat-label">Satisfacao</div></div>
+      </div>
+      <div class="hero-ctas">
+        <a href="https://wa.me/6781260014" target="_blank" class="btn-primary" id="heroCta1"><i class="fab fa-whatsapp"></i> Quero Mais Clientes Agora<span class="btn-glow"></span></a>
+        <a href="#solucoes" class="btn-secondary" id="heroCta2">Ver Solucoes <i class="fas fa-arrow-down"></i></a>
+      </div>
+      <div class="hero-platforms">
+        <span>Especialistas em:</span>
+        <div class="platform-badges">
+          <span class="platform-badge"><i class="fab fa-meta"></i> Meta Ads</span>
+          <span class="platform-badge"><i class="fab fa-google"></i> Google Ads</span>
+          <span class="platform-badge"><i class="fab fa-instagram"></i> Instagram</span>
+          <span class="platform-badge"><i class="fab fa-tiktok"></i> TikTok Ads</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-image-wrap">
+      <div class="hero-img-container">
+        <img src="hero_dashboard.jpg" alt="Dashboard ClickON" class="hero-img" />
+        <div class="floating-card card-1"><i class="fas fa-chart-line"></i><div><div class="fc-number">+247%</div><div class="fc-label">ROI</div></div></div>
+        <div class="floating-card card-2"><i class="fas fa-users"></i><div><div class="fc-number">2.4k</div><div class="fc-label">Leads</div></div></div>
+        <div class="floating-card card-3"><i class="fas fa-fire"></i><div><div class="fc-number">98%</div><div class="fc-label">Entrega</div></div></div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator"><div class="scroll-mouse"><div class="scroll-wheel"></div></div><span>Role para descobrir</span></div>
+  </section>
+  <section class="clients-bar">
+    <div class="clients-container">
+      <p class="clients-label">Plataformas que dominamos</p>
+      <div class="clients-track-wrapper"><div class="clients-track" id="clientsTrack">
+        <div class="client-logo-item"><i class="fab fa-meta"></i><span>Meta Ads</span></div>
+        <div class="client-logo-item"><i class="fab fa-google"></i><span>Google Ads</span></div>
+        <div class="client-logo-item"><i class="fab fa-tiktok"></i><span>TikTok Ads</span></div>
+        <div class="client-logo-item"><i class="fab fa-instagram"></i><span>Instagram</span></div>
+        <div class="client-logo-item"><i class="fab fa-youtube"></i><span>YouTube Ads</span></div>
+        <div class="client-logo-item"><i class="fab fa-linkedin"></i><span>LinkedIn Ads</span></div>
+        <div class="client-logo-item"><i class="fab fa-meta"></i><span>Meta Ads</span></div>
+        <div class="client-logo-item"><i class="fab fa-google"></i><span>Google Ads</span></div>
+        <div class="client-logo-item"><i class="fab fa-tiktok"></i><span>TikTok Ads</span></div>
+        <div class="client-logo-item"><i class="fab fa-instagram"></i><span>Instagram</span></div>
+        <div class="client-logo-item"><i class="fab fa-youtube"></i><span>YouTube Ads</span></div>
+        <div class="client-logo-item"><i class="fab fa-linkedin"></i><span>LinkedIn Ads</span></div>
+      </div></div>
+    </div>
+  </section>
+  <section class="solutions" id="solucoes">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">O Que Fazemos</span>
+        <h2 class="section-title">Solucoes para seu<br /><span class="gradient-text">Negocio ou Empresa</span></h2>
+        <p class="section-desc">Estrategias personalizadas para transformar seu investimento em resultados concretos e mensuraveis.</p>
+      </div>
+      <div class="solutions-grid">
+        <div class="solution-card">
+          <div class="solution-icon-wrap"><div class="solution-icon"><i class="fab fa-meta"></i></div></div>
+          <h3>Meta Ads</h3>
+          <p>Campanhas no Facebook e Instagram que alcancam o publico certo, na hora certa, com criativos que convertem.</p>
+          <ul class="solution-list">
+            <li><i class="fas fa-check"></i> Segmentacao avancada de publico</li>
+            <li><i class="fas fa-check"></i> Criativos de alta conversao</li>
+            <li><i class="fas fa-check"></i> Remarketing inteligente</li>
+            <li><i class="fas fa-check"></i> Relatorios semanais detalhados</li>
+          </ul>
+          <a href="https://wa.me/6781260014" target="_blank" class="solution-cta">Saiba mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="solution-card featured-card">
+          <div class="featured-badge">Mais Procurado</div>
+          <div class="solution-icon-wrap"><div class="solution-icon"><i class="fab fa-google"></i></div></div>
+          <h3>Google Ads</h3>
+          <p>Apareca no topo do Google quando seus clientes estiverem procurando o que voce oferece.</p>
+          <ul class="solution-list">
+            <li><i class="fas fa-check"></i> Search, Display e Shopping</li>
+            <li><i class="fas fa-check"></i> Palavras-chave de alto ROI</li>
+            <li><i class="fas fa-check"></i> Otimizacao continua de lances</li>
+            <li><i class="fas fa-check"></i> Rastreamento de conversoes</li>
+          </ul>
+          <a href="https://wa.me/6781260014" target="_blank" class="solution-cta">Saiba mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="solution-card">
+          <div class="solution-icon-wrap"><div class="solution-icon"><i class="fas fa-funnel-dollar"></i></div></div>
+          <h3>Funil de Vendas</h3>
+          <p>Funis completos de aquisicao para guiar o cliente desde o primeiro clique ate a compra final.</p>
+          <ul class="solution-list">
+            <li><i class="fas fa-check"></i> Landing pages de alta conversao</li>
+            <li><i class="fas fa-check"></i> Automacao de nutricao de leads</li>
+            <li><i class="fas fa-check"></i> Funil para e-commerce</li>
+            <li><i class="fas fa-check"></i> Analise de funil completo</li>
+          </ul>
+          <a href="https://wa.me/6781260014" target="_blank" class="solution-cta">Saiba mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="solution-card">
+          <div class="solution-icon-wrap"><div class="solution-icon"><i class="fas fa-chart-bar"></i></div></div>
+          <h3>Analise e Relatorios</h3>
+          <p>Dados claros para voce saber exatamente onde cada real do seu investimento esta trabalhando.</p>
+          <ul class="solution-list">
+            <li><i class="fas fa-check"></i> Dashboard em tempo real</li>
+            <li><i class="fas fa-check"></i> Relatorios mensais executivos</li>
+            <li><i class="fas fa-check"></i> Analise de concorrencia</li>
+            <li><i class="fas fa-check"></i> KPIs personalizados</li>
+          </ul>
+          <a href="https://wa.me/6781260014" target="_blank" class="solution-cta">Saiba mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="solution-card">
+          <div class="solution-icon-wrap"><div class="solution-icon"><i class="fab fa-tiktok"></i></div></div>
+          <h3>TikTok e YouTube Ads</h3>
+          <p>Capture a atencao do seu publico nas plataformas de video mais poderosas com campanhas criativas.</p>
+          <ul class="solution-list">
+            <li><i class="fas fa-check"></i> Roteiros criativos</li>
+            <li><i class="fas fa-check"></i> Campanhas In-Feed e TopView</li>
+            <li><i class="fas fa-check"></i> YouTube pre-roll e bumper</li>
+            <li><i class="fas fa-check"></i> Otimizacao por engajamento</li>
+          </ul>
+          <a href="https://wa.me/6781260014" target="_blank" class="solution-cta">Saiba mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="solution-card">
+          <div class="solution-icon-wrap"><div class="solution-icon"><i class="fas fa-store"></i></div></div>
+          <h3>Trafego para E-commerce</h3>
+          <p>Estrategias especificas para lojas virtuais com foco em custo por aquisicao baixo e alto retorno.</p>
+          <ul class="solution-list">
+            <li><i class="fas fa-check"></i> Google Shopping otimizado</li>
+            <li><i class="fas fa-check"></i> Campanhas de catalogo Meta</li>
+            <li><i class="fas fa-check"></i> Recuperacao de carrinho</li>
+            <li><i class="fas fa-check"></i> Up-sell e cross-sell</li>
+          </ul>
+          <a href="https://wa.me/6781260014" target="_blank" class="solution-cta">Saiba mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="solutions-cta-center">
+        <a href="https://wa.me/6781260014" target="_blank" class="btn-primary" id="solutionsCtaBtn"><i class="fab fa-whatsapp"></i> Consultoria Gratuita - Fale Agora<span class="btn-glow"></span></a>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="sobre">
+    <div class="about-bg-shapes"><div class="about-shape shape-1"></div><div class="about-shape shape-2"></div></div>
+    <div class="section-container">
+      <div class="about-grid">
+        <div class="about-image-side">
+          <div class="about-img-wrap">
+            <img src="about_team.jpg" alt="Equipe ClickON" class="about-img" />
+            <div class="about-experience-badge"><span class="exp-number">5+</span><span class="exp-text">Anos de Experiencia</span></div>
+          </div>
+        </div>
+        <div class="about-content-side">
+          <span class="section-tag">Quem Somos</span>
+          <h2 class="section-title">Somos <span class="gradient-text">Obcecados</span> por Resultados</h2>
+          <p class="about-text">A <strong>ClickON</strong> nasceu da paixao por resultados mensuraveis. Somos especialistas em trafego pago com anos de experiencia gerenciando campanhas para negocios de todos os tamanhos.</p>
+          <p class="about-text">Nossa missao: <strong>transformar seu investimento em clientes reais</strong>. Usamos dados, criatividade e estrategia para construir campanhas que nao apenas geram cliques, mas geram vendas.</p>
+          <div class="about-values">
+            <div class="value-item"><div class="value-icon"><i class="fas fa-bullseye"></i></div><div class="value-content"><h4>Foco em ROI</h4><p>Todo centavo investido e rastreado para o maximo retorno.</p></div></div>
+            <div class="value-item"><div class="value-icon"><i class="fas fa-shield-alt"></i></div><div class="value-content"><h4>Transparencia Total</h4><p>Relatorios claros. Voce sabe exatamente o que esta acontecendo.</p></div></div>
+            <div class="value-item"><div class="value-icon"><i class="fas fa-rocket"></i></div><div class="value-content"><h4>Crescimento Acelerado</h4><p>Estrategias ageis que se adaptam ao mercado em tempo real.</p></div></div>
+          </div>
+          <a href="https://wa.me/6781260014" target="_blank" class="btn-primary" id="aboutCtaBtn"><i class="fab fa-whatsapp"></i> Conheca Nossa Equipe<span class="btn-glow"></span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="results" id="resultados">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Nossos Numeros</span>
+        <h2 class="section-title">Resultados que<br /><span class="gradient-text">Falam por Si</span></h2>
+        <p class="section-desc">Dados reais das nossas campanhas.</p>
+      </div>
+      <div class="results-grid">
+        <div class="results-image"><img src="results_mockup.jpg" alt="Resultados ClickON" class="results-img" /></div>
+        <div class="results-metrics">
+          <div class="metric-row">
+            <div class="metric-icon"><i class="fas fa-arrow-trend-up"></i></div>
+            <div class="metric-info"><div class="metric-value">+350%</div><div class="metric-label">Aumento medio de conversoes em 90 dias</div></div>
+            <div class="metric-bar-wrap"><div class="metric-bar" data-width="85"></div></div>
+          </div>
+          <div class="metric-row">
+            <div class="metric-icon"><i class="fas fa-coins"></i></div>
+            <div class="metric-info"><div class="metric-value">8x ROI</div><div class="metric-label">Retorno medio sobre investimento</div></div>
+            <div class="metric-bar-wrap"><div class="metric-bar" data-width="92"></div></div>
+          </div>
+          <div class="metric-row">
+            <div class="metric-icon"><i class="fas fa-users"></i></div>
+            <div class="metric-info"><div class="metric-value">50k+</div><div class="metric-label">Leads qualificados por mes</div></div>
+            <div class="metric-bar-wrap"><div class="metric-bar" data-width="78"></div></div>
+          </div>
+          <div class="metric-row">
+            <div class="metric-icon"><i class="fas fa-percent"></i></div>
+            <div class="metric-info"><div class="metric-value">-40% CPA</div><div class="metric-label">Reducao no custo por aquisicao</div></div>
+            <div class="metric-bar-wrap"><div class="metric-bar" data-width="88"></div></div>
+          </div>
+          <a href="https://wa.me/6781260014" target="_blank" class="btn-primary" id="resultsCtaBtn"><i class="fab fa-whatsapp"></i> Quero Esses Resultados<span class="btn-glow"></span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="testimonials" id="depoimentos">
+    <div class="testimonials-bg" style="background-image: url(social_proof_bg.jpg)"></div>
+    <div class="testimonials-overlay"></div>
+    <div class="section-container" style="position:relative; z-index:2;">
+      <div class="section-header">
+        <span class="section-tag">Prova Social</span>
+        <h2 class="section-title">O Que Nossos<br /><span class="gradient-text">Clientes Dizem</span></h2>
+        <p class="section-desc">Historias reais de negocios que transformaram seus resultados com a ClickON.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p class="testimonial-text">Em apenas 2 meses com a ClickON, triplicamos o faturamento. ROI das campanhas Meta Ads foi incrivel - 9x o valor investido!</p>
+          <div class="testimonial-author"><div class="author-avatar">MF</div><div class="author-info"><strong>Marcos Ferreira</strong><span>CEO - Loja Virtual FashionUp</span></div><div class="testimonial-platform"><i class="fab fa-meta"></i></div></div>
+        </div>
+        <div class="testimonial-card featured-testimonial">
+          <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p class="testimonial-text">Nossa clinica saiu de 20 para 150 agendamentos mensais em 4 meses. A ClickON entende de verdade como atrair clientes pelo Google Ads. Recomendo!</p>
+          <div class="testimonial-author"><div class="author-avatar">DR</div><div class="author-info"><strong>Dra. Roberta Alves</strong><span>Diretora - Clinica Sorriso Perfeito</span></div><div class="testimonial-platform"><i class="fab fa-google"></i></div></div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p class="testimonial-text">Reduzimos custo por lead em 47% e aumentamos a qualidade dos contatos. A ClickON e proativa, transparente e sempre disponivel. Vale ouro!</p>
+          <div class="testimonial-author"><div class="author-avatar">LC</div><div class="author-info"><strong>Lucas Carvalho</strong><span>Socio - Construtora LC Empreendimentos</span></div><div class="testimonial-platform"><i class="fab fa-meta"></i></div></div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p class="testimonial-text">Ja testei varias agencias mas a ClickON e diferente. Criam estrategias personalizadas e os resultados foram acima de tudo que esperavamos.</p>
+          <div class="testimonial-author"><div class="author-avatar">AP</div><div class="author-info"><strong>Ana Paula Ramos</strong><span>Fundadora - Escola Bloom Kids</span></div><div class="testimonial-platform"><i class="fab fa-instagram"></i></div></div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p class="testimonial-text">Vendemos mais em um mes com a ClickON do que em todo o trimestre anterior. Gestao de alto nivel, relatorios claros e suporte rapido.</p>
+          <div class="testimonial-author"><div class="author-avatar">RM</div><div class="author-info"><strong>Ricardo Mota</strong><span>Diretor - Suplementos VitalMax</span></div><div class="testimonial-platform"><i class="fab fa-google"></i></div></div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p class="testimonial-text">A ClickON transformou meu negocio local em referencia regional. Em 6 meses o faturamento cresceu 280%. Sao parceiros estrategicos de verdade!</p>
+          <div class="testimonial-author"><div class="author-avatar">JS</div><div class="author-info"><strong>Joao Souza</strong><span>Proprietario - Auto Center Premium</span></div><div class="testimonial-platform"><i class="fab fa-meta"></i></div></div>
+        </div>
+      </div>
+      <div class="trust-badges">
+        <div class="trust-badge"><i class="fas fa-medal"></i><span>+350 Clientes</span></div>
+        <div class="trust-badge"><i class="fas fa-star"></i><span>5 estrelas no Google</span></div>
+        <div class="trust-badge"><i class="fas fa-shield-alt"></i><span>Parceiro Meta Oficial</span></div>
+        <div class="trust-badge"><i class="fas fa-certificate"></i><span>Certificado Google</span></div>
+      </div>
+    </div>
+  </section>
+  <section class="faq" id="faq">
+    <div class="faq-bg-glow"></div>
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Perguntas Frequentes</span>
+        <h2 class="section-title">Duvidas que<br /><span class="gradient-text">Respondemos Sempre</span></h2>
+        <p class="section-desc">Mais perguntas? Fale conosco pelo WhatsApp.</p>
+      </div>
+      <div class="faq-grid">
+        <div class="faq-item"><button class="faq-question" id="faq1Btn"><span>Quanto tempo leva para ver resultados?</span><div class="faq-icon"><i class="fas fa-plus"></i></div></button><div class="faq-answer" id="faq1Answer"><p>Os primeiros resultados aparecem entre 7 a 14 dias. Para resultados consistentes trabalhamos 30 a 90 dias de otimizacao continua.</p></div></div>
+        <div class="faq-item"><button class="faq-question" id="faq2Btn"><span>Qual o investimento minimo para comecar?</span><div class="faq-icon"><i class="fas fa-plus"></i></div></button><div class="faq-answer" id="faq2Answer"><p>Recomendamos minimo de R$1.500/mes em midia. Converse conosco e montaremos um plano ideal para seu orcamento.</p></div></div>
+        <div class="faq-item"><button class="faq-question" id="faq3Btn"><span>Voces trabalham com qual tipo de negocio?</span><div class="faq-icon"><i class="fas fa-plus"></i></div></button><div class="faq-answer" id="faq3Answer"><p>Atendemos e-commerce, clinicas, construtoras, educacao, servicos locais, infoprodutos e muito mais.</p></div></div>
+        <div class="faq-item"><button class="faq-question" id="faq4Btn"><span>Como funciona o contrato?</span><div class="faq-icon"><i class="fas fa-plus"></i></div></button><div class="faq-answer" id="faq4Answer"><p>Comecamos com reuniao de diagnostico gratuita. Trabalhamos com contratos mensais renovaveis sem fidelidade forcada.</p></div></div>
+        <div class="faq-item"><button class="faq-question" id="faq5Btn"><span>Voces criam os criativos das campanhas?</span><div class="faq-icon"><i class="fas fa-plus"></i></div></button><div class="faq-answer" id="faq5Answer"><p>Sim! Criamos artes, copies persuasivos e orientacoes para videos otimizados para conversao.</p></div></div>
+        <div class="faq-item"><button class="faq-question" id="faq6Btn"><span>Voces garantem resultados?</span><div class="faq-icon"><i class="fas fa-plus"></i></div></button><div class="faq-answer" id="faq6Answer"><p>Garantimos dedicacao total e otimizacao continua. Mais de 350 clientes satisfeitos comprovam nossa qualidade.</p></div></div>
+        <div class="faq-item"><button class="faq-question" id="faq7Btn"><span>Como recebo os relatorios das campanhas?</span><div class="faq-icon"><i class="fas fa-plus"></i></div></button><div class="faq-answer" id="faq7Answer"><p>Dashboard em tempo real mais relatorios semanais e reunioes mensais de alinhamento.</p></div></div>
+        <div class="faq-item"><button class="faq-question" id="faq8Btn"><span>Preciso ter conta nas plataformas de anuncios?</span><div class="faq-icon"><i class="fas fa-plus"></i></div></button><div class="faq-answer" id="faq8Answer"><p>Nao! Cuidamos de toda configuracao inicial incluindo pixel de rastreamento e integracao com seu site.</p></div></div>
+      </div>
+      <div class="faq-more-cta">
+        <p>Ainda tem duvidas? Nossa equipe esta pronta para responder agora mesmo!</p>
+        <a href="https://wa.me/6781260014" target="_blank" class="btn-primary" id="faqCtaBtn"><i class="fab fa-whatsapp"></i> Tirar Duvidas pelo WhatsApp<span class="btn-glow"></span></a>
+      </div>
+    </div>
+  </section>
+  <section class="final-cta">
+    <div class="final-cta-bg"></div>
+    <div class="final-cta-particles" id="finalParticles"></div>
+    <div class="section-container" style="position:relative; z-index:2;">
+      <div class="final-cta-content">
+        <img src="logo.png" alt="ClickON" class="final-logo" />
+        <h2>Pronto para <span class="gradient-text">Ligar o Turbo</span><br />no seu Negocio?</h2>
+        <p>Fale com nossa equipe de especialistas e descubra como transformar seu investimento em clientes reais.</p>
+        <div class="final-cta-badges">
+          <span><i class="fas fa-check-circle"></i> Diagnostico Gratuito</span>
+          <span><i class="fas fa-check-circle"></i> Sem Fidelidade</span>
+          <span><i class="fas fa-check-circle"></i> Resultados Mensuraveis</span>
+        </div>
+        <a href="https://wa.me/6781260014" target="_blank" class="btn-final-cta" id="finalCtaBtn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="white" style="width:28px;height:28px"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+          Falar com Especialista Agora<span class="btn-glow"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <img src="logo.png" alt="ClickON" class="footer-logo" />
+        <p>Especialistas em trafego pago que transformam investimento em resultados reais para o seu negocio.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://wa.me/6781260014" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-links"><h4>Navegacao</h4><ul><li><a href="#solucoes">Solucoes</a></li><li><a href="#sobre">Quem Somos</a></li><li><a href="#resultados">Resultados</a></li><li><a href="#depoimentos">Depoimentos</a></li><li><a href="#faq">FAQ</a></li></ul></div>
+      <div class="footer-links"><h4>Servicos</h4><ul><li><a href="#">Meta Ads</a></li><li><a href="#">Google Ads</a></li><li><a href="#">TikTok Ads</a></li><li><a href="#">Funil de Vendas</a></li><li><a href="#">E-commerce Ads</a></li></ul></div>
+      <div class="footer-contact">
+        <h4>Contato</h4>
+        <a href="https://wa.me/6781260014" target="_blank" class="footer-wa-btn" id="footerWaBtn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="white" width="20" height="20"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+          (67) 8126-0014
+        </a>
+        <p class="footer-hours"><i class="fas fa-clock"></i> Seg-Sex: 8h as 18h</p>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>2025 ClickON. Todos os direitos reservados. | Gestao de Trafego Pago</p></div>
+  </footer>
+  <div class="whatsapp-float" id="whatsappFloat">
+    <div class="wa-tooltip">Fale conosco agora!</div>
+    <a href="https://wa.me/6781260014" target="_blank" class="wa-float-btn" id="waFloatBtn" aria-label="WhatsApp">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="white" style="width:32px;height:32px"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+      <div class="wa-pulse"></div>
+    </a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
