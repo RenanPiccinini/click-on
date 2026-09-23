@@ -1,4 +1,4 @@
-// ClickON Landing Page - Interactive Script
+// NovaAds Landing Page - Interactive Script
 
 // ======== NAVBAR SCROLL ========
 const navbar = document.getElementById('navbar');
@@ -227,5 +227,5 @@ window.addEventListener('scroll', () => {
   });
 });
 
-console.log('%c ClickON ', 'background: linear-gradient(135deg, #FF6B00, #FF8C33); color: white; font-size: 20px; font-weight: bold; padding: 8px 20px; border-radius: 8px;');
+console.log('%c NovaAds ', 'background: linear-gradient(135deg, #FF6B00, #FF8C33); color: white; font-size: 20px; font-weight: bold; padding: 8px 20px; border-radius: 8px;');
 console.log('%c Landing page developed with passion.', 'color: #FF8C33; font-size: 12px;');

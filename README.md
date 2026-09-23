@@ -1,6 +1,6 @@
-# ClickON - Landing Page para Gestão de Tráfego Pago
+# NovaAds - Landing Page para Gestão de Tráfego Pago
 
-Landing page moderna, responsiva e de alta conversão desenvolvida para a agência/consultoria **ClickON** (Gestão de Tráfego Pago e Performance).
+Landing page moderna, responsiva e de alta conversão desenvolvida para a agência/consultoria **NovaAds** (Gestão de Tráfego Pago e Performance).
 
 ## 🚀 Tecnologias
 
@@ -12,11 +12,11 @@ Landing page moderna, responsiva e de alta conversão desenvolvida para a agênc
 ## 📂 Estrutura do Projeto
 
 ```
-clickOn/
+novaAds/
 ├── index.html          # Estrutura principal da landing page
-├── styles.css          # Estilos e design system (cores da ClickON)
+├── styles.css          # Estilos e design system (cores da NovaAds)
 ├── script.js           # Interatividades, animações e efeitos
-├── logo.png            # Logo oficial ClickON
+├── logo.png            # Logo oficial NovaAds
 ├── hero_dashboard.jpg  # Visual 3D Hero
 ├── about_team.jpg      # Seção Quem Somos
 ├── results_mockup.jpg  # Seção Soluções / Resultados
